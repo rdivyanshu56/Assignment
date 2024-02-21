@@ -83,6 +83,11 @@ navbar {
     box-shadow: 10px 6px 24px -10px rgba(0, 0, 0, 0.75);
     width: 30vw;
 }
+@media(max-width:500px) {
+    .about img{
+        width: 100%;
+    }
+}
 
 h1 {
     font-size: 3rem;
